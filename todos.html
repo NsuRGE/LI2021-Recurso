@@ -22,6 +22,22 @@
           </ul>
         </div>
       </nav>
+      <div class="container-fluid">
+        <form class="needs-validation" novalidate>
+          <div class="form-row" style="padding-left:5%; padding-right: 5%; padding-top: 2%;">
+            <div class="form-group col-6">
+              <label for="title">Title</label>
+              <textarea class="form-control" rows="1" id="title" required></textarea>
+              <input class="form-check-input" type="checkbox" name="completed" id="completed" value="Checkbox1" />
+              <label class="form-check-label" for="completed">Completed</label>&nbsp;&nbsp;
+            </div>
+            <div class="form-row">
+              <input class="btn btn-outline-secondary" type="reset" value="Limpar">&nbsp;
+              <input class="btn btn-primary" type="submit" value="Submeter" />
+            </div>
+          </div>
+        </form>
+      </div>
       <div class="container-fluid" style="padding-left: 5%; padding-right: 5%; padding-top: 5%; text-align: left;">
         <h1>Lista de Tarefas</h1>
       </div>
